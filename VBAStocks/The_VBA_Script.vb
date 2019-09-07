@@ -32,7 +32,7 @@ Sub StockInformationMain()
     OldTicker = Cells(2, 1).Value
     NewRow = 2
     TotalVolume = 0
-    OpeningPrice = 0
+    OpeningPrice = Range("C2").Value
     GPI = 0 'Greatest Percent Increase
     GPD = 0 'Greatest Percent Decrease
     GTV = 0 'Greatest Total Volume
